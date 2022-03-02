@@ -17,7 +17,9 @@ const Home: NextPage = () => {
           <label htmlFor="password">Enter password</label>
           <input id="password" type="password" />
         </FormGroup>
-        <button type="button">Unlock</button>
+        <button type="button" className="primary">
+          Unlock
+        </button>
       </div>
     </div>
   );
