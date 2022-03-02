@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import ActionButton from "../components/ActionButton";
 import AssetList from "../components/AssetList";
+import IconButton from "../components/IconButton";
 import WalletOverview from "../components/WalletOverview";
 
 const assets: WalletAsset[] = [
@@ -18,9 +19,7 @@ const MyWalletPage: NextPage = () => (
         <Image src="/RoninWalletIcon.svg" width="16px" height="16px" alt="Ronin Wallet icon" />
         <h1 className="text-xs">Ronin Wallet</h1>
       </div>
-      <button type="button" className="btn btn-icon btn-icon-sm">
-        <Image src="/Person.svg" width="24px" height="24px" alt="Account icon" layout="fixed" />
-      </button>
+      <IconButton iconSrc="/Person.svg" />
     </div>
     <WalletOverview currency="VND" locale="en-US" totalAmount={26681289} walletNumber="7300 3777 3888 3334" />
     <div className="flex flex-row justify-center items-center gap-6">

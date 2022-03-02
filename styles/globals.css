@@ -13,7 +13,7 @@
   #__next {
     @apply h-full mx-auto;
     background-image: url("/Wallpaper.svg");
-    width: 360px;
+    width: 375px;
   }
 
   label {
@@ -70,6 +70,10 @@
     pointer-events: none;
   }
   *:disabled * {
+    @apply opacity-50;
+  }
+  input:disabled {
+    pointer-events: none;
     @apply opacity-50;
   }
 }

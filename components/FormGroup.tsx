@@ -9,7 +9,7 @@ const FormGroup: React.FC<FormGroupProps> = ({ className, inline = false, childr
   const combinedClassNames = React.useMemo(
     () =>
       classnames(
-        { "flex flex-col items-stretch px-5": !inline, "inline-flex flex-row items-center py-5": inline },
+        { "flex flex-col items-stretch": !inline, "inline-flex flex-row items-center": inline },
         "gap-1",
         className
       ),
