@@ -15,4 +15,22 @@
     background-image: url("/wallpaper.png");
     width: 360px;
   }
+
+  label {
+    color: #57627b;
+    @apply text-xs uppercase;
+  }
+
+  input {
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    @apply border border-solid border-[#c5cee0] text-sm h-10 rounded-lg;
+  }
+
+  button[type="button"],
+  button[type="submit"],
+  input[type="submit"] {
+    background-image: linear-gradient(256.28deg, #1c94f4 0%, #1273ea 100%);
+    @apply text-sm text-white rounded-lg px-5 py-2.5;
+  }
 }
