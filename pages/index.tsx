@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   return (
     <div className="h-full w-full flex flex-col gap-6">
       <div className="mx-auto mt-24">
-        <Image src="/apple-icon-180x180.png" width={160} height={160} layout="fixed" alt="Ronin Wallet Logo" />
+        <Image src="/RoninWalletIcon.svg" width={160} height={160} layout="fixed" alt="Ronin Wallet Logo" />
       </div>
       <div className="mx-auto">
         <h1 className="font-bold text-center text-2xl">Ronin Wallet</h1>
